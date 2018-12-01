@@ -862,3 +862,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.protected_contents=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apex.updatable=true
+
+# EUICC
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml
