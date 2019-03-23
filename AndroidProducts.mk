@@ -17,7 +17,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_crosshatch.mk \
     $(LOCAL_DIR)/aosp_blueline.mk \
+    $(LOCAL_DIR)/calyx_crosshatch.mk \
+    $(LOCAL_DIR)/calyx_blueline.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_crosshatch-userdebug \
-    aosp_blueline-userdebug
+    aosp_blueline-userdebug \
+    calyx_crosshatch-userdebug \
+    calyx_blueline-userdebug
