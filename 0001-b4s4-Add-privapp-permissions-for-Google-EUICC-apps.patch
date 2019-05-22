@@ -1,0 +1,52 @@
+From 4e97d12342670a18c12fa2c65a2724f08fa96d51 Mon Sep 17 00:00:00 2001
+From: Rashed Abdel-Tawab <rashed@linux.com>
+Date: Wed, 22 May 2019 15:13:23 -0700
+Subject: [PATCH] b4s4: Add privapp permissions for Google EUICC apps
+
+Change-Id: I2e7bc09bac103d31132bd6ae646cb2f6d7ba8b19
+---
+ device.mk                                     |  3 +++
+ .../privapp-permissions-aosp-extended.xml     | 20 +++++++++++++++++++
+ 2 files changed, 23 insertions(+)
+ create mode 100644 permissions/privapp-permissions-aosp-extended.xml
+
+diff --git a/device.mk b/device.mk
+index 626e616285..c63b2898b6 100644
+--- a/device.mk
++++ b/device.mk
+@@ -867,3 +867,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
+ # EUICC
+ PRODUCT_COPY_FILES += \
+     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:system/etc/permissions/android.hardware.telephony.euicc.xml
++
++PRODUCT_COPY_FILES += \
++    device/google/bonito/permissions/privapp-permissions-aosp-extended.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-aosp-extended.xml
+diff --git a/permissions/privapp-permissions-aosp-extended.xml b/permissions/privapp-permissions-aosp-extended.xml
+new file mode 100644
+index 0000000000..7397ba74f4
+--- /dev/null
++++ b/permissions/privapp-permissions-aosp-extended.xml
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="utf-8"?>
++<permissions>
++    <privapp-permissions package="com.google.android.euicc">
++        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
++        <permission name="android.permission.MODIFY_PHONE_STATE"/>
++        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
++        <permission name="android.permission.REBOOT"/>
++        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
++        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
++        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
++        <permission name="com.android.permission.INSTALL_EXISTING_PACKAGES" />
++        <permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
++    </privapp-permissions>
++
++    <privapp-permissions package="com.google.euiccpixel">
++        <permission name="android.permission.MODIFY_PHONE_STATE"/>
++        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
++        <permission name="android.permission.REBOOT"/>
++    </privapp-permissions>
++</permissions>
+-- 
+2.25.0
+
