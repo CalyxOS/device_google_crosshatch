@@ -1,0 +1,15 @@
+#
+# Copyright (C) 2018-2021 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
+# Partitions
+AB_OTA_PARTITIONS += \
+    vendor
+ifneq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
+    BOARD_VENDORIMAGE_PARTITION_SIZE := 805306368
+endif
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
