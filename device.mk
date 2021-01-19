@@ -73,6 +73,10 @@ ifeq ($(wildcard vendor/google_devices/crosshatch/proprietary/device-vendor-cros
     BUILD_WITHOUT_VENDOR := true
 endif
 
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+TARGET_PREBUILT_KERNEL := device/google/crosshatch-kernel/Image.lz4
+endif
+
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 28
 
@@ -725,6 +729,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/vibrator/cs40l20/cs40l20.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.wmfw \
     device/google/crosshatch/vibrator/cs40l20/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin
+
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/crosshatch/sdm845/kernel-headers
+endif
 
 # Audio ACDB data
 PRODUCT_COPY_FILES += \
