@@ -8,6 +8,8 @@ $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := calyx_blueline
 PRODUCT_MODEL := Pixel 3
+PRODUCT_BRAND := google
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/blueline
