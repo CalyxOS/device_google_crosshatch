@@ -9,3 +9,5 @@ $(call inherit-product, device/google/crosshatch/aosp_crosshatch.mk)
 PRODUCT_NAME := calyx_crosshatch
 PRODUCT_MODEL := Pixel 3 XL
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+PRODUCT_SOONG_NAMESPACES += vendor/google_devices/crosshatch
