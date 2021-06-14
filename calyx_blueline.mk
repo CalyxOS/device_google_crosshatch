@@ -9,5 +9,6 @@ $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 PRODUCT_NAME := calyx_blueline
 PRODUCT_MODEL := Pixel 3
 PRODUCT_RESTRICT_VENDOR_FILES := false
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/blueline
