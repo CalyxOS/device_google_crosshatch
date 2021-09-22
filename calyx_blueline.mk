@@ -10,6 +10,12 @@ PRODUCT_NAME := calyx_blueline
 PRODUCT_MODEL := Pixel 3
 PRODUCT_BRAND := google
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_PRODUCT=blueline \
+    PRIVATE_BUILD_DESC="blueline-user 12 SP1A.210812.015 7679548 release-keys"
+
+BUILD_FINGERPRINT := google/blueline/blueline:12/SP1A.210812.015/7679548:user/release-keys
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
