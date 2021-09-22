@@ -10,6 +10,12 @@ PRODUCT_NAME := calyx_crosshatch
 PRODUCT_MODEL := Pixel 3 XL
 PRODUCT_BRAND := google
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=crosshatch \
+    PRIVATE_BUILD_DESC="crosshatch-user 11 RQ3A.210905.001 7511028 release-keys"
+
+BUILD_FINGERPRINT := google/crosshatch/crosshatch:11/RQ3A.210905.001/7511028:user/release-keys
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_SOONG_NAMESPACES += vendor/google_devices/crosshatch
