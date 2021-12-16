@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b5d831e_059a05c6",
+        "filename": "blueline/proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-12-16T15:36:10Z",
+      "side": 0,
+      "message": "Don\u0027t remove",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 28
+      },
+      "revId": "559cdc07021822d986a6381001d6d9e7a831740e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
