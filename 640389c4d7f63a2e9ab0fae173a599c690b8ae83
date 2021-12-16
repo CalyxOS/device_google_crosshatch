@@ -22,6 +22,30 @@
       },
       "revId": "640389c4d7f63a2e9ab0fae173a599c690b8ae83",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "506eb6f2_f2ba9efc",
+        "filename": "BoardConfig-calyx.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-16T16:08:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f4486ea_b6b9eb89",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 5
+      },
+      "revId": "640389c4d7f63a2e9ab0fae173a599c690b8ae83",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
