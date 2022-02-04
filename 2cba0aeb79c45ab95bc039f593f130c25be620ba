@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d238e205_2c5b9b66",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-04T18:23:06Z",
+      "side": 1,
+      "message": "Might as well set this to 02-05, and hold till Feb kernel is merged to merge this.",
+      "revId": "2cba0aeb79c45ab95bc039f593f130c25be620ba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
