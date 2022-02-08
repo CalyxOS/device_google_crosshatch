@@ -16,6 +16,24 @@
       "message": "Might as well set this to 02-05, and hold till Feb kernel is merged to merge this.",
       "revId": "2cba0aeb79c45ab95bc039f593f130c25be620ba",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad61313f_5302db88",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-08T09:12:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d238e205_2c5b9b66",
+      "revId": "2cba0aeb79c45ab95bc039f593f130c25be620ba",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
