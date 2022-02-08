@@ -16,6 +16,24 @@
       "message": "Need to double check.\n\nhttps://android.googlesource.com/platform/build/+/refs/tags/android-12.0.0_r31/core/version_defaults.mk#243",
       "revId": "354ac0ea17f9bdc46d48a422b9a5396630c04aaa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f17539a_c7973738",
+        "filename": "vendor.prop",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-02-08T13:39:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4de51e0_02901e20",
+      "revId": "354ac0ea17f9bdc46d48a422b9a5396630c04aaa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
