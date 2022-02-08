@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7ca16b9_3ab140ec",
+        "filename": "device-common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-08T09:12:24Z",
+      "side": 1,
+      "message": "Need to double check both, https://android.googlesource.com/platform/build/+/refs/tags/android-12.0.0_r31/core/version_defaults.mk#243",
+      "revId": "40c6b58b01332254afb5c0dbfcbaa0c39185ba9c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
