@@ -16,6 +16,24 @@
       "message": "Bump to March, we do have bonito kernel",
       "revId": "e51bbd466276169ef8bf5a70f9822aa254efc37a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ca96702_abe11a9f",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-03-11T13:39:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "43762cdd_000c2dd9",
+      "revId": "e51bbd466276169ef8bf5a70f9822aa254efc37a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
