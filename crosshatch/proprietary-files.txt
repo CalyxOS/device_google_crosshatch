@@ -194,7 +194,6 @@ product/etc/permissions/com.android.sdm.plugins.dcmo.xml
 product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
-product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # SecureUI
 product/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk
