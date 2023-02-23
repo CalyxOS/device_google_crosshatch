@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5dc16b4_41338671",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-02-23T18:38:15Z",
+      "side": 1,
+      "message": "CVE-2022-33243 breaks DSP/CHRE/Elmyra. Updating proprietary blobs from another device did not work (tested multiple device sources)",
+      "revId": "f6d608ad7de192b78799295664bc89f63551ea5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
