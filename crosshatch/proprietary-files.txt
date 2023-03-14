@@ -203,10 +203,6 @@ product/lib64/libsecureuisvc_jni.so
 
 # system_ext partition
 
-# AptX
-system_ext/lib64/libaptXHD_encoder.so
-system_ext/lib64/libaptX_encoder.so
-
 # Qualcomm misc
 system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar
