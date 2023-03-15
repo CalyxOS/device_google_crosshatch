@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e8c494c_43e87ca7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-15T10:56:48Z",
+      "side": 1,
+      "message": "Let\u0027s make builds with these. If there\u0027s issues we just don\u0027t release it.",
+      "revId": "c80d53dd2571fdf34558d706db97f83eb3be89f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
