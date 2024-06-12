@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ed36c93_74e31918",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-12T23:47:05Z",
+      "side": 1,
+      "message": "Needed to build other devices",
+      "revId": "466f972dfd8cdc589d621f849438d49b8fd91dda",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
