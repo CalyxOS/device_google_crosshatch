@@ -125,7 +125,7 @@ static bool FileExists(const std::string &filename) {
     return stat(filename.c_str(), &buffer) == 0;
 }
 
-void private_healthd_board_init(struct healthd_config *hc) {
+void private_healthd_board_init(struct healthd_config *config) {
     using ::device::google::crosshatch::health::kChargerStatus;
 
     ccBackupRestoreBMS.Restore();
