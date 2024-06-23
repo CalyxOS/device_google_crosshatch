@@ -1,5 +1,8 @@
 DEVICE_PACKAGE_OVERLAYS += device/google/crosshatch/overlay-calyx
 
+# Add common definitions for Qualcomm
+$(call inherit-product, hardware/qcom-caf/common/common.mk)
+
 # Elmyra
 PRODUCT_PACKAGES += \
     ElmyraService
